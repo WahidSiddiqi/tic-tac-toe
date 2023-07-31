@@ -1,0 +1,22 @@
+div.tttBox {
+    width: 90px;
+    height: 90px;
+    border: 2px solid green;
+    padding: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+}
+
+.myDiv {
+    text-align: center;
+}
+
+
+
+.board {
+    text-align: center;
+}

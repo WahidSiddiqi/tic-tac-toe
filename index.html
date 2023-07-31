@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css" />
+        <title>Tic-Tac-Toe</title>
+    </head>
+    <body>
+        <p>Welcome to the Tic-Tac-Toe game!</p>
+        <div class="board" id="board">
+            <div>
+            <div class="tttBox" id="box-1" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-2" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-3" onclick="boxClicked(this)"></div>
+            </div>
+        
+            <div class="tttBox" id="box-4" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-5" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-6" onclick="boxClicked(this)"></div>
+            <br/>
+            <div class="tttBox" id="box-7" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-8" onclick="boxClicked(this)"></div>
+            <div class="tttBox" id="box-9" onclick="boxClicked(this)"></div>
+        </div>
+        <div class="winning-message" id="winningMessage">
+        <div class="myDiv">
+            <button onclick="resetBoard(this)">Restart</button>
+
+        </div>
+            
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
